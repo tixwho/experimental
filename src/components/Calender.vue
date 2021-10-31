@@ -1,5 +1,7 @@
 <template>
-    <a-calendar v-model:value="value" @panelChange="onPanelChange" @select="onSelect"></a-calendar>
+    <div class='cal-container'>
+        <a-calendar class='center-big' v-model:value="value" :fullscreen="true" @panelChange="onPanelChange" />
+  </div>
 </template>
 
 <script>
@@ -13,5 +15,8 @@ export default {
 </script>
 
 <style scoped>
-
+.cal-container{
+    width: 900px;
+    border-style: none;
+}
 </style>

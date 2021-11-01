@@ -20,10 +20,10 @@ export default {
 
 <style scoped>
 #cent {
+  /**Flex display */
   height:400px;
   border-style:none;    
   display:flex;
   justify-content:center;     
-    /* aa只要三句话就可以实现不定宽高水平垂直居中。 */
 }
 </style>

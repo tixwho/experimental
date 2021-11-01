@@ -1,10 +1,42 @@
 <template>
+  <!--
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to='/homepage'>Homepage</router-link>
   </div>
   <router-view/>
+   -->
+  <div id="app">
+    <!--main -->
+    <a-layout id="demo">
+      <!--sider -->
+      <a-layout-sider v-model="collapsed" :trigger="null" collapsible>
+        <!--header -->
+        <a-layout-header class="layout-header"> </a-layout-header>
+
+        <div></div>
+
+        <!--left menu-->
+        <a-menu theme="dark" mode="inline" v-model="selected_keys">
+          <a-menu-item
+            ><router-link to="/about">About</router-link></a-menu-item
+          >
+          <a-menu-item
+            ><router-link to="/homepage">Homepage</router-link></a-menu-item
+          >
+        </a-menu>
+      </a-layout-sider>
+      <a-layout id="app">
+        <!--content -->
+        <a-layout-content :style="{ background: ffffff }" class="kibana">
+          <keep-alive>
+            <router-view keep-alive style="padding: 10px"></router-view>
+          </keep-alive>
+        </a-layout-content>
+      </a-layout>
+    </a-layout>
+  </div>
 </template>
 
 <style>
@@ -14,6 +46,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  min-height: 800px;
 }
 
 #nav {

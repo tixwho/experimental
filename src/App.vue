@@ -20,10 +20,22 @@
         <!--left menu-->
         <a-menu theme="dark" mode="inline" v-model="selected_keys">
           <a-menu-item
-            ><router-link to="/about">About</router-link></a-menu-item
+            ><router-link to="/profile">My Profile</router-link></a-menu-item
           >
           <a-menu-item
-            ><router-link to="/homepage">Homepage</router-link></a-menu-item
+            ><router-link to="/homepage">Upcoming Events</router-link></a-menu-item
+          >
+          <a-menu-item
+            ><router-link to="/construction">Volunteer Hours</router-link></a-menu-item
+          >
+          <a-menu-item
+            ><router-link to="/construction">Calendar View</router-link></a-menu-item
+          >
+          <a-menu-item
+            ><router-link to="/construction">Forms</router-link></a-menu-item
+          >
+          <a-menu-item
+            ><router-link to="/construction">Show Project</router-link></a-menu-item
           >
         </a-menu>
       </a-layout-sider>

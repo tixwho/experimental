@@ -32,24 +32,24 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Daily Sprint
 ### Meeting 1
-a. What did you do yesterday?
-Andrea: Yesterday I reviewed CSS and also reviewed overall goals for the project and client needs.
-Caitlin: Yesterday I reviewed some of the objectives for this sprint. Trying to look at what needs to be completed and what we’ve done at this point.
-Nate: Yesterday I reviewed the requirements for the sprint and began to look at the firestore demo.
-	Lin:Yesterday I went through the firebase demo and practiced on some basic nosql commands.
-	Lily: Yesterday I determined the user stories and broke them out into smaller tasks.
-b. What are you planning to do today?
-Andrea: Today I plan to meet with Jackie to go over the prototypes that Caitlin has created on Justinmind	
-Caitlin: Today, I plan to meet with Jackie to discuss some of the designs we’ve put together. We hope to receive her feedback as well as receive confirmation on our current designs.
-	Nate: Today I plan to meet with Jackie to help present our current prototypes and collect feedback.
-	Lin: Today I plan to explore more about the front-end structure solution and see if that work with our project.
-	Lily: Today I planned on meeting with Jackie to get feedback on our progress. 
-c. Any problems are you facing?
-	Andrea: None right now.
-	Caitlin: Currently not facing any problems
-	Nate: No problems.
-	Lin: Not for now.
-	Lily: No problems.
+### a. What did you do yesterday?
+### Andrea: Yesterday I reviewed CSS and also reviewed overall goals for the project and client needs.
+### Caitlin: Yesterday I reviewed some of the objectives for this sprint. Trying to look at what needs to be completed and what we’ve done at this point.
+### Nate: Yesterday I reviewed the requirements for the sprint and began to look at the firestore demo.
+### Lin:Yesterday I went through the firebase demo and practiced on some basic nosql commands.
+### Lily: Yesterday I determined the user stories and broke them out into smaller tasks.
+### b. What are you planning to do today?
+### Andrea: Today I plan to meet with Jackie to go over the prototypes that Caitlin has created on Justinmind	
+### Caitlin: Today, I plan to meet with Jackie to discuss some of the designs we’ve put together. We hope to receive her feedback as well as receive confirmation on our current designs.
+### Nate: Today I plan to meet with Jackie to help present our current prototypes and collect feedback.
+### Lin: Today I plan to explore more about the front-end structure solution and see if that work with our project.
+### Lily: Today I planned on meeting with Jackie to get feedback on our progress. 
+### c. Any problems are you facing?
+### Andrea: None right now.
+### Caitlin: Currently not facing any problems
+### Nate: No problems.
+### Lin: Not for now.
+### Lily: No problems.
 
 Meeting 2:
 a. What did you do yesterday?

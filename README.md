@@ -87,3 +87,47 @@ e. Are you satisfied with what you already completed?
 f. Feedback received from client if applicable.
 Jackie is hoping for the website to have a feature of uploading pictures from the events onto the website for people to view afterwards.
 
+
+Sprint 1
+As a user I need to be able to login and access my account.
+Create structure of login page using HTML
+Enable buttons to log in using JavaScript
+Create database using Firebase
+Create user portal with relevant account information 
+As a user I need to be able to view the home page of the volunteer site.
+Build navigation bar of homepage
+Create header, banner, and containers for the main page
+Build calendar view
+As a user I need to be able to see the sub pages available on the site.
+Create page for users to manage forms
+Create form to input/track hours volunteered
+Enable toggling between pages (profile/user portal, volunteer hours, upcoming events, forms, etc)
+As a user I need to be able to manage and plan out my volunteer events.
+Create form to add in availability
+Populate calendar with availability
+Create form only accessible to admins for posting new events
+Create page to view events
+Create button to sign up for event and form to confirm enrollment
+
+
+Prioritization
+Build navigation bar of homepage
+Create header, banner, and containers for the main page
+Build calendar view
+Create page for users to manage documents/waivers/contracts/forms
+Create form to input/track hours volunteered
+Create form only accessible to admins for posting new events
+Create page to view events
+Create button to sign up for event and form to confirm enrollment
+Create form to add in availability
+Populate calendar with availability
+Enable toggling between pages (profile/user portal, volunteer hours, upcoming events, forms, etc)
+Create structure of login page using HTML
+Enable buttons to log in using JavaScript
+Create database using Firebase
+Create user portal with relevant account information 
+Add contact information to the “Contact Us” tab
+
+
+The rationale behind this prioritization is that it is most important to build out the structure of the main page, so that the rest of the components can be placed in the right spot as they’re developed. Having a calendar view is a main feature of our proposed system, and is something none of us have had experience with creating before, so getting that to work is a high priority for us. It is also the base for a few of our other features, such as displaying availability, displaying event times, and marking events the user is planning on attending, so the calendar needs to be functional before adding those features. There are multiple forms throughout the site that make the management system unique to each user, so those are the next priority. Also, different pages house different information about the events, the users account, and availability so making those available is imperative for the user experience. Making the different pages and forms clickable is then necessary for the user to navigate between each of those tabs. Creating the login page is still important, but our last priority because it is not essential to the overall functionality of the site. We figured that completing all of the unique features would take the majority of the time, and creating the login is something that we are all familiar with, so we saved that task for last. For the burndown chart, 1 story point represents an estimated 1-2 hours of individual work.
+

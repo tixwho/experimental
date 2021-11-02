@@ -31,7 +31,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Vue & Firebase Integration video: https://www.youtube.com/watch?v=Htt8AKeF1Kw
 
 ### Daily Sprint
-###Meeting 1
+### Meeting 1
 a. What did you do yesterday?
 Andrea: Yesterday I reviewed CSS and also reviewed overall goals for the project and client needs.
 Caitlin: Yesterday I reviewed some of the objectives for this sprint. Trying to look at what needs to be completed and what we’ve done at this point.

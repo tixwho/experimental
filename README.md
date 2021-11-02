@@ -88,7 +88,7 @@ f. Feedback received from client if applicable.
 Jackie is hoping for the website to have a feature of uploading pictures from the events onto the website for people to view afterwards.
 
 
-Sprint 1
+User Stories Sprint 1
 As a user I need to be able to login and access my account.
 Create structure of login page using HTML
 Enable buttons to log in using JavaScript

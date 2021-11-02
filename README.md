@@ -72,3 +72,18 @@ Andrea: I need to familiarize myself with the function of npm and with javascrip
 	Lily: I was having trouble with the Burndown chart add-on in Trello.
 
 
+Sprint Review and Retrospective 
+
+a. What did you learn from doing our first sprint?
+We learned that communication is really important and that it is also important to meet on a more frequent basis. 
+b. What did go well? Why?
+We were able to delegate tasks well but I think that it can be even further improved on the next sprint.
+c. What didn’t go well? Why not?
+	We did not start as early as we should have because we had very little momentum from our first meeting. We are still in the process of scheduling meetings around all of our unique schedule constraints, but we are much better off than we were at the beginning of the sprint because we have communicated more since then.
+d. How can you make things better next time?
+	Next time, we want to meet on a more frequent basis so that we do not lose momentum with the sprint. We also want to better familiarize ourselves with Vue, which is a new app that will help us create an interactive calendar for our home page. 
+e. Are you satisfied with what you already completed?
+	So far we are satisfied with the direction we’re moving in. However, we need to be more productive and continue working on the project to meet project deadlines
+f. Feedback received from client if applicable.
+Jackie is hoping for the website to have a feature of uploading pictures from the events onto the website for people to view afterwards.
+

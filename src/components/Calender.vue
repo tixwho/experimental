@@ -17,33 +17,42 @@
   </a-calendar>
 </template>
 <script>
-import {ref } from 'vue';
-import {queryDayEvent} from '/src/mock/Calendar_mockdata.js';
+// import { ref } from "vue";
+import {queryDaysEvent} from "../mock/Calendar_mockdata";
 export default {
-  name: 'Calender',
-  setup() {
-    const value = ref();
-
-    console.log("TYPE IS "+typeof(queryDayEvent));
-    console.log(queryDayEvent);
-    console.log(queryDayEvent(8));
-
-    const getListData = queryDayEvent;
-         
-
-    const getMonthData = value => {
+  name: "Calender",
+  data() {
+    // arr:[]
+  },
+  methods: {
+    setup() {
+      // const value = ref();
+      // console.log("TYPE IS " + typeof queryDayEvent);
+      // console.log(queryDayEvent);
+      // console.log(queryDayEvent(8));
+      // const getListData = queryDayEvent;
+      // const getMonthData = (value) => {
+      //   if (value.month() === 8) {
+      //     return 1394;
+      //   }
+      // };
+      // return {
+      //   value,
+      //   getListData,
+      //   getMonthData,
+      // };
+    },
+    getListData() {
+      const res = queryDaysEvent()
+      console.log(res)
+       return  res;
+    },
+    getMonthData(value) {
       if (value.month() === 8) {
         return 1394;
       }
-    };
-
-    return {
-      value,
-      getListData,
-      getMonthData,
-    };
+    },
   },
-
 };
 </script>
 <style scoped>

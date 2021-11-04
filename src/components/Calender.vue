@@ -1,5 +1,6 @@
 <template>
   <a-calendar v-model:value="value">
+    <!-- current() is provided in dayjs package, return a complex w/ day data -->
     <template #dateCellRender="{ current }">
       <ul class="events">
         <li v-for="item in getListData(current)" :key="item.content">
@@ -16,65 +17,19 @@
   </a-calendar>
 </template>
 <script>
-import { defineComponent, ref } from 'vue';
-export default defineComponent({
+import {ref } from 'vue';
+import {queryDayEvent} from '/src/mock/Calendar_mockdata.js';
+export default {
+  name: 'Calender',
   setup() {
     const value = ref();
 
-    const getListData = value => {
-      let listData;
+    console.log("TYPE IS "+typeof(queryDayEvent));
+    console.log(queryDayEvent);
+    console.log(queryDayEvent(8));
 
-      switch (value.date()) {
-        case 8:
-          listData = [{
-            type: 'warning',
-            content: 'This is warning event.',
-          }, {
-            type: 'success',
-            content: 'This is usual event.',
-          }];
-          break;
-
-        case 10:
-          listData = [{
-            type: 'warning',
-            content: 'This is warning event.',
-          }, {
-            type: 'success',
-            content: 'This is usual event.',
-          }, {
-            type: 'error',
-            content: 'This is error event.',
-          }];
-          break;
-
-        case 15:
-          listData = [{
-            type: 'warning',
-            content: 'This is warning event',
-          }, {
-            type: 'success',
-            content: 'This is very long usual event。。....',
-          }, {
-            type: 'error',
-            content: 'This is error event 1.',
-          }, {
-            type: 'error',
-            content: 'This is error event 2.',
-          }, {
-            type: 'error',
-            content: 'This is error event 3.',
-          }, {
-            type: 'error',
-            content: 'This is error event 4.',
-          }];
-          break;
-
-        default:
-      }
-
-      return listData || [];
-    };
+    const getListData = queryDayEvent;
+         
 
     const getMonthData = value => {
       if (value.month() === 8) {
@@ -89,7 +44,7 @@ export default defineComponent({
     };
   },
 
-});
+};
 </script>
 <style scoped>
 .events {
